@@ -1,0 +1,11 @@
+Postfix operator -> precedence ( Right to left ) -> ++ --
+
+Assignment operator -> precedence ( Right to left ) -> symbol: = += -= *= /= %= >>= <<= &= ^= |=
+
+Conditional operator -> precedence ( Right to left ) = symbol: ?:
+
+comma  -> precedence ( Right to left ) symbol: ,
+
+Unary  -> precedence (Right to left) = symbol: + - ! ~ ++ -- (type)* & sixeof
+
+NOTE: Rest of the operator's precedence is left to Right keep it mind...:)
