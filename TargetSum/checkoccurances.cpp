@@ -24,7 +24,7 @@ int main ()
     const int N = 1e5 + 10;
     vector<int> freq(N,0);  // created vector name is freq. it's size of N and initialize the vector with zero of all the elements..
     for(int i=0;i<n;i++){
-        freq[v[i]]++;
+        freq[v[i]]++;       // count repeatation of each element
     }
 
     cout<<"Enter queries: ";

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int m,n;
+    cout<<"Enter the matrix row and column: ";
     cin>>m>>n;
 
     int array[m][n];
